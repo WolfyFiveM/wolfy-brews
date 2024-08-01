@@ -13,7 +13,7 @@
 # Installation
 
 Add this to qb-smallresources > config (under custom consumables)
-        ['cuppatea'] = {
+```        ['cuppatea'] = {
             progress = {
                 label = 'Drinking a cuppa...',
                 time = 5000
@@ -60,11 +60,11 @@ Add this to qb-smallresources > config (under custom consumables)
                 event = false, 
                 server = false 
             }
-        },
+        },```
 
 Add these items to your qb-core > shared > items.lua
-    cuppacoffee                 = { name = 'cuppacoffee', label = 'Cup of Coffee', weight = 500, type = 'item', image = 'cuppacoffee.png', unique = false, useable = true, shouldClose = true, description = 'For all the thirsty out there' },
-    cuppatea                 = { name = 'cuppatea', label = 'Cup of Tea', weight = 500, type = 'item', image = 'cuppatea.png', unique = false, useable = true, shouldClose = true, description = 'For all the thirsty out there' },
+```    cuppacoffee                 = { name = 'cuppacoffee', label = 'Cup of Coffee', weight = 500, type = 'item', image = 'cuppacoffee.png', unique = false, useable = true, shouldClose = true, description = 'For all the thirsty out there' },
+    cuppatea                 = { name = 'cuppatea', label = 'Cup of Tea', weight = 500, type = 'item', image = 'cuppatea.png', unique = false, useable = true, shouldClose = true, description = 'For all the thirsty out there' },```
 
 Take the sounds from [SOUNDS] and place them in your interact-sound > client > html > sounds
 
